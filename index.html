@@ -5,42 +5,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Profesional - Mateo Isai Moo Huchin</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
+    <style>
+        
+    </style>
+
     <!-- TODO LO QUE COLOQUEN AQUI LO VERÁ EL USUARIO -->
     <header>
         <h1> Portafolio Profesional</h1>
         <h4>Mateo Isai Moo Huchin</h4>
-    </header>
-    <!-- MENÚ DE NAVEGACIÓN-->
+    <header> 
     <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Sobre Mi</a>
-        <a href="#">Mi experiencia</a>
-        <a href="#">Contáctame</a>
-
+        <a href="#bienvenida">Sobre mí</a>
+        <a href="#proyectos">Proyectos Tecnologicos</a>
+        <a href="#competencias">Competencias profesionales</a>
+        <a href="#contacto">Contactame</a>
     </nav>
+</header> 
 
-    <!-- CONTENIDO PRINCIPAL -->
-    <main>
-        <section>
-            <h2>Bienvenidos a mi portafolio profesional</h2>
-            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <img alt=" Foto de perfil" src="https://images.pexels.com/photos/3344325/pexels-photo-3344325.jpeg" width="500">
+<main>
+    <section id="bienvenida"> 
+        <h2>Bienvenidos a mi portafolio profesional</h2>
+        <p>Mi nombre es <mark> Moo Huchin Mateo Isai </mark> soy estudiante de ingenieria en <strong>
+                Tecnologias de la
+                informacion</strong> Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been
+            the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+            of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+            but also the leap into electronic typesetting, remaining essentially unchanged. It was
+            popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus PageMaker including versions of
+            Lorem Ipsum.</p>
+        <p> Mi <small>Frase favorita es:</small> <i>el 7 siempre sera mejor que el 10 </i></p>
+        <img alt="foto de perfil" src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg"
+            width="500" />
+    </section>
 
+    <section id="proyectos">
+        <h2>Proyectos Tecnologicos</h2>
+        <div class="lista-proyectos">
+            <article class="proyecto">
+                <h3>Sistema de Estadias</h3>
+                <p>Lorem ipsum dolor sit consectetuar</p>
+            </article>
+            <article class="proyecto">
+                <h3>Sistema de Veterinarias</h3>
+                <p>Lorem ipsum dolor sit consectetuar</p>
+            </article>
+            <article class="proyecto">
+                <h3>Sistema de Florerias</h3>
+                <p>Lorem ipsum dolor sit consectetuar</p>
+            </article>
+        </div>
+    </section>
 
+    <section id="competencias">
+        <h2>Competencias profesionales</h2>
+        <h3>Tecnologias y Lenguajes</h3>
+        <ul>
+            <li>HTML5</li>
+            <Li>CSS</LI>
+            <li>JavaScript</li>
+            <li>C#</li>
+        </ul>
+        <h3>Dominio de Habilidades</h3>
+        <div>
+            <label>HTML</label>
+            <progress min="0" max="100" value="50">50%</progress>
+        </div>
+        <div>
+            <label>JavaScript</label>
+            <progress min="0" max="100" value="65">65%</progress>
+        </div>
+    </section>
 
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Todos los derechos reservados</p>
-    </footer>
-</body>
+    <section id="contacto">
+        <h2>Contactame</h2>
+        <p> lorem ipsum alkuasllapoaunaxmmnau</p>
+        <form>
+            <div class="campos">
+                <label>Nombre completo</label>
+                <input type="text" name="nombre" value="" placeholder="Ingresa tu nombre" />
+            </div>
+            <div class="campos">
+                <label>Telefono</label>
+                <input type="text" name="telefono" value="" placeholder="Ingresa tu telefono" />
+            </div>
+            <div class="campos">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </section>
 
-</html>
+</main> <footer>
+    <p>&copy; 2025 Todos los derechos reservados</p>
+</footer>
