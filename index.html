@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">. <!-- ESTE ES UN COMENTARIO -->
-
-<head>
+<html lang="en">. <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Profesional - Mateo Isai Moo Huchin</title>
@@ -13,78 +11,98 @@
         
     </style>
 
-    <!-- TODO LO QUE COLOQUEN AQUI LO VERÁ EL USUARIO -->
     <header>
         <h1> Portafolio Profesional</h1>
         <h4>Mateo Isai Moo Huchin</h4>
-    <header> 
-    <nav>
-        <a href="#bienvenida">Sobre mí</a>
-        <a href="#proyectos">Proyectos Tecnologicos</a>
-        <a href="#competencias">Competencias profesionales</a>
-        <a href="#contacto">Contactame</a>
-    </nav>
-</header> 
-
-<main>
+        
+        <nav>
+            <ul>
+                <li><a href="#bienvenida">Sobre mí</a></li> 
+                <li><a href="#proyectos">Proyectos Tecnologicos</a></li>
+                <li><a href="#competencias">Competencias profesionales</a></li>
+                <li><a href="#contacto">Contáctame</a></li>
+            </ul>
+        </nav>
+    </header> <main>
     <section id="bienvenida"> 
-        <h2>Bienvenidos a mi portafolio profesional</h2>
-        <p>Mi nombre es <mark> Moo Huchin Mateo Isai </mark> soy estudiante de ingenieria en <strong>
-                Tecnologias de la
-                informacion</strong> Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been
-            the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-            of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-            but also the leap into electronic typesetting, remaining essentially unchanged. It was
-            popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus PageMaker including versions of
-            Lorem Ipsum.</p>
-        <p> Mi <small>Frase favorita es:</small> <i>el 7 siempre sera mejor que el 10 </i></p>
-        <img alt="foto de perfil" src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg"
-            width="500" />
-    </section>
+        <div class="contenido-bienvenida">
+            
+            <div class="perfil-imagen">
+            <img alt="Moo Huchin Mateo Isai" src="imagen/mateo.png.jpg" />
+            </div>
+            
+            <div class="perfil-texto">
+                <h2>Bienvenidos a mi portafolio profesional</h2>
+                <p>Mi nombre es  Moo Huchin Mateo Isai y soy estudiante de ingenieria en <strong>
+                    Tecnologias de la
+                    informacion</strong>Actualmente me estoy formando como Ingeniero en Tecnologías de la Información. 
+                    Mi trayectoria se centra en la creación de soluciones tecnológicas que no solo sean funcionales, sino que puedan operar de manera eficiente en una amplia gama de dispositivos y entornos.
+                En este portafolio muestro las habilidades que he adquirido para desarrollar sistemas complejos.
+            Estoy comprometido con la innovacion y listo para contribuir a proyectos que requieren adaptabilidad y un diseño riguroso</p>
+                <p> Mi <small>Frase favorita es:</small> <i>Vive la vida, no te metas en problemas y déjate llevar.</i></p>
+                
+            </div>
 
+        </div> </section>
     <section id="proyectos">
         <h2>Proyectos Tecnologicos</h2>
         <div class="lista-proyectos">
             <article class="proyecto">
-                <h3>Sistema de Estadias</h3>
-                <p>Lorem ipsum dolor sit consectetuar</p>
+                <h3>El Arte de Cuidarte</h3>
+                <p>Sistema para la gestion de citas, historiales clínicos
+                    y recursos medicos
+                </p>
             </article>
             <article class="proyecto">
-                <h3>Sistema de Veterinarias</h3>
-                <p>Lorem ipsum dolor sit consectetuar</p>
+                <h3>MENUX</h3>
+                <p>Aplicación móvil para digitalizar pedidos y menús de resaurantes</p>
             </article>
             <article class="proyecto">
-                <h3>Sistema de Florerias</h3>
-                <p>Lorem ipsum dolor sit consectetuar</p>
+                <h3>El Arte de Cuidarte Móvil</h3>
+                <p>Adaptación del sistema médico El Arte de Cuidarte
+                    a dispositivos móviles
+                </p>
             </article>
         </div>
     </section>
 
     <section id="competencias">
-        <h2>Competencias profesionales</h2>
+    <h2>Competencias profesionales</h2>
+    
+    <div class="competencia-bloque">
         <h3>Tecnologias y Lenguajes</h3>
-        <ul>
+        <ul class="lista-etiquetas">
             <li>HTML5</li>
             <Li>CSS</LI>
             <li>JavaScript</li>
             <li>C#</li>
         </ul>
-        <h3>Dominio de Habilidades</h3>
-        <div>
+    </div>
+    
+    <div class="competencia-bloque">
+        <h4>Dominio de Habilidades</h4>
+        <div class="barra-progreso">
             <label>HTML</label>
             <progress min="0" max="100" value="50">50%</progress>
         </div>
-        <div>
-            <label>JavaScript</label>
+        <div class="barra-progreso">
+            <label>CSS</label>
             <progress min="0" max="100" value="65">65%</progress>
         </div>
-    </section>
+        <div class="barra-progreso">
+            <label>JavaScript</label>
+            <progress min="0" max="100" value="50">50%></progress>
+        </div>
+        <div class="barra-progreso">
+            <label>C#</label>
+            <progress min="0" max="100" value="80">80%</progress>
+        </div>
+        </div>
+</section>
 
     <section id="contacto">
-        <h2>Contactame</h2>
-        <p> lorem ipsum alkuasllapoaunaxmmnau</p>
+        <h2>Contáctame</h2>
+        <p> Escríbeme para empezar a colaborar</p>
         <form>
             <div class="campos">
                 <label>Nombre completo</label>
@@ -92,7 +110,7 @@
             </div>
             <div class="campos">
                 <label>Telefono</label>
-                <input type="text" name="telefono" value="" placeholder="Ingresa tu telefono" />
+                <input type="number" name="telefono" value="" placeholder="Ingresa tu telefono" />
             </div>
             <div class="campos">
                 <button type="submit">Enviar</button>
